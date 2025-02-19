@@ -1,26 +1,27 @@
+/* ===== Global Styles ===== */
 .page {
-  max-width: 1600px;
-  min-width: 1100px;
-  margin: auto;
+  max-width: 1600px;  /* Ensures the layout doesn't get too wide */
+  min-width: 1100px;  /* Prevents layout issues on small screens */
+  margin: auto; /* Centers the content */
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
-
+/* ===== Header Section ===== */
 .header {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh;  /* Takes up full viewport height */
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
 }
-
+/* ===== Navigation Bar ===== */
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Aligns logo to left and links to right */
 }
 
 .nav__logo {
@@ -42,10 +43,10 @@
   text-decoration: none;
   font-weight: bold;
 }
-
+/* ===== Hero Section ===== */
 .header__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Separates text and image */
 }
 
 .header__title {
@@ -67,7 +68,7 @@
   max-width: 636px;
   margin: 0;
 }
-
+/* ===== Header Footer ===== */
 .header__footer {
   margin-top: auto;
   width: 100%;
@@ -86,7 +87,7 @@
   margin: 0;
   color: #838383;
 }
-
+/* ===== Staff Picks Section ===== */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
@@ -112,7 +113,7 @@
   margin: 0;
   color: #ffffff;
 }
-
+/* ===== Staff Cards ===== */
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
@@ -123,7 +124,7 @@
   list-style-type: none;
   padding-left: 0;
 }
-
+/* ===== Individual Cards ===== */
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -160,6 +161,7 @@
   color: #838383;
   margin-top: auto;
 }
+/* ===== Events Section ===== */
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -288,7 +290,7 @@
   font-size: 14px;
   margin: 0; 
 }
-
+/* ===== Membership Section ===== */
 .membership {
   padding: 100px 0 140px;
   background-color: #057bf2;
@@ -303,7 +305,7 @@
   font-weight: 500;
   line-height: 52px;
 }
-
+/* ===== Membership Steps ===== */
 .membership__steps {
   list-style-type: none;
   padding: 0;
@@ -334,7 +336,7 @@
 .step__description {
   margin: 10px 0 0;
 }
-
+/* ===== Footer Section ===== */
 .footer {
   display: flex;
   box-sizing: border-box;
